@@ -1,0 +1,9 @@
+Linux / macOS (gcc or clang):
+gcc -o DungeonSpawnerForcer1.16.5 -std=gnu11 -O2 -ffp-contract=off ./src/*.c ./src/*/*.c -lm -lpthread
+
+Windows (MinGW-w64):
+windres ./src/DungeonSpawnerForcer1.16.5.rc -O coff -o DungeonSpawnerForcer1.16.5.res
+gcc -o DungeonSpawnerForcer1.16.5.exe -std=gnu11 -O2 -ffp-contract=off -static ./src/*.c ./src/*/*.c DungeonSpawnerForcer1.16.5.res -lm
+
+Windows (Visual Studio, from a Developer Command Prompt):
+build.bat
