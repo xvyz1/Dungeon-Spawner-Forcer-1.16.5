@@ -7,7 +7,7 @@ Finds chunks where up to 8 dungeon spawners of one mob (notably 8 skeletons) can
 - A chunk in 1.16.5 makes 8 dungeon attempts, each one a spawner, so 8 is the most one chunk can hold. Using several chunks you can get about 14 activated with 1 player. However, using 6-9 chunks to attain 14 spanners is a lot harder than using one chunk. Also, 8 of one type is much easier to set up and fairly common.
 - It is a good early to mid game farm before a higher end wither skeleton or general mob farm.
 - The results are about 95% accurate.
-- The commands build the terrain around the chunk (the chunk itself is regenerated), then you reset the chunk with the BookDupe Fabric mod (hold a book and quill and type `.s`), which makes the game generate it again with the planned dungeons. The text file has the steps with the coordinates filled in for every result.
+- The commands build the terrain around the chunk (the chunk itself is regenerated), then you reset the chunk with the DungeonSpawnerForcer1.16.5-Reset fabric mod (hold a book and quill and type `.s`), which makes the game generate it again with the planned dungeons. The text file has the steps with the coordinates filled in for every result.
 - The air the command clears is only for visual purposes: you only have to dig out a small area around wherever you do build the temporary blocks, to get the spawners to generate.
 - Only works on 1.16.5. To avoid downgrading your world, do it all in a separate world of the same seed and copy the chunk over with MCA Selector after generating the spawners and upgrading the world to your version.
 - RECOMMENDED PARAMETERS: skeleton, 8 spawners, 25000 radius. REMEMBER TO CHECK IF IT EXISTS BEFOREHAND, not guaranteed.
