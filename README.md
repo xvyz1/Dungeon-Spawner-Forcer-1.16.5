@@ -2,8 +2,6 @@
 
 Finds chunks where up to 8 dungeon spawners of one mob (notably 8 skeletons) can be forced to generate and activate from one spot, and writes the commands that build them, on Minecraft Java 1.16.5. Vibecoded.
 
-[VIDEO](https://www.youtube.com/watch?v=XXXXXXXXXXX)
-
 - A chunk in 1.16.5 makes 8 dungeon attempts, each one a spawner, so 8 is the most one chunk can hold. Using several chunks you can get about 14 activated with 1 player. However, using 6-9 chunks to attain 14 spanners is a lot harder than using one chunk. Also, 8 of one type is much easier to set up and fairly common.
 - It is a good early to mid game farm before a higher end wither skeleton or general mob farm.
 - The results are about 95% accurate.
